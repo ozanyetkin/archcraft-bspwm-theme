@@ -75,6 +75,7 @@ apply_rofi() {
 		${PATH_BSPWM}/scripts/rofi_runner \
 		${PATH_BSPWM}/scripts/rofi_screenshot \
 		${PATH_BSPWM}/scripts/rofi_themes \
+		${PATH_BSPWM}/scripts/rofi_bluetooth \
 		${PATH_BSPWM}/scripts/rofi_windows
 	
 	# apply default theme fonts
