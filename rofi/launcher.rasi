@@ -266,7 +266,7 @@ button {
     cursor:                      pointer;
 }
 button selected {
-    background-color:            var(selected-normal-background);
+    background-color:            var(urgent);
     text-color:                  var(selected-normal-foreground);
 }
 
