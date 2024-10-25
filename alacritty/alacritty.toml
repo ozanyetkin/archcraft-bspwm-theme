@@ -6,7 +6,7 @@
 ## GENERAL --------------------------------------------------------
 
 ## Import additional configuration files.
-import = ["~/.config/bspwm/alacritty/colors.toml", "~/.config/bspwm/alacritty/fonts.toml"]
+general.import = ["~/.config/bspwm/alacritty/colors.toml", "~/.config/bspwm/alacritty/fonts.toml"]
 
 ## You can set shell.program to the path of your favorite shell, e.g. /bin/zsh.
 ## Entries in shell.args are passed as arguments to the shell.
@@ -17,10 +17,10 @@ import = ["~/.config/bspwm/alacritty/colors.toml", "~/.config/bspwm/alacritty/fo
 #working_directory = "None"
 
 ## Live config reload
-live_config_reload = true
+general.live_config_reload = true
 
 ## Offer IPC using alacritty msg
-ipc_socket = true
+general.ipc_socket = true
 
 ## ENVIRONMENT ----------------------------------------------------
 
